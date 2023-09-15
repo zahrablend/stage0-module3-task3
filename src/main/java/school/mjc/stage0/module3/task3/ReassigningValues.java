@@ -8,14 +8,14 @@ public class ReassigningValues {
 
         System.out.println(first + "\n" + second + "\n" + third);
 
-        var linkToFirst = first;
-        var linkToSecond = second;
-        var linkToThird = third;
+        int linkToFirst = first;
+        int linkToSecond = second;
+        int linkToThird = third;
 
         first = 15;
         second = 6;
         third = 4;
 
-        System.out.println(first + "\n" + second + "\n" + third + "\n" + linkToFirst + "\n" + linkToSecond + "\n" + linkToThird + "\n" + first + "\n" + second + "\n" + third);
+        System.out.println(first + "\n" + second + "\n" + third + "\n" + linkToFirst + "\n" + linkToSecond + "\n" + linkToThird);
     }
 }
